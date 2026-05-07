@@ -1,0 +1,2152 @@
+{
+  "Alabama": {
+    "state": "Alabama",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Alabama\\sarima.joblib",
+      "prophet": "registry\\Alabama\\prophet.joblib",
+      "xgboost": "registry\\Alabama\\xgboost.joblib",
+      "lstm": "registry\\Alabama\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.5448,
+        "rmse": 26903855.57,
+        "mae": 20763729.78
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 20.8476,
+        "rmse": 50153960.33,
+        "mae": 40679989.96
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.7194,
+        "rmse": 10721757.81,
+        "mae": 9507635.9
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.3044,
+        "rmse": 12191343.96,
+        "mae": 10568928.35
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Arizona": {
+    "state": "Arizona",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Arizona\\sarima.joblib",
+      "prophet": "registry\\Arizona\\prophet.joblib",
+      "xgboost": "registry\\Arizona\\xgboost.joblib",
+      "lstm": "registry\\Arizona\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.4839,
+        "rmse": 21676481.2,
+        "mae": 17353277.15
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 13.1617,
+        "rmse": 33139319.6,
+        "mae": 27542730.8
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 6.8521,
+        "rmse": 18525173.73,
+        "mae": 15215853.7
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.4527,
+        "rmse": 16569847.22,
+        "mae": 13816453.79
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Arkansas": {
+    "state": "Arkansas",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Arkansas\\sarima.joblib",
+      "prophet": "registry\\Arkansas\\prophet.joblib",
+      "xgboost": "registry\\Arkansas\\xgboost.joblib",
+      "lstm": "registry\\Arkansas\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.3214,
+        "rmse": 12404726.62,
+        "mae": 9734283.25
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 21.3894,
+        "rmse": 26223775.73,
+        "mae": 22281644.61
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.0412,
+        "rmse": 6724768.46,
+        "mae": 5477799.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.831,
+        "rmse": 6808453.7,
+        "mae": 6195029.3
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "California": {
+    "state": "California",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\California\\sarima.joblib",
+      "prophet": "registry\\California\\prophet.joblib",
+      "xgboost": "registry\\California\\xgboost.joblib",
+      "lstm": "registry\\California\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 7.4502,
+        "rmse": 89346739.01,
+        "mae": 59682623.95
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 15.0408,
+        "rmse": 144004094.14,
+        "mae": 121600056.28
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.3061,
+        "rmse": 53385504.1,
+        "mae": 44153133.3
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.6574,
+        "rmse": 54342846.15,
+        "mae": 47161959.44
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Colorado": {
+    "state": "Colorado",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Colorado\\sarima.joblib",
+      "prophet": "registry\\Colorado\\prophet.joblib",
+      "xgboost": "registry\\Colorado\\xgboost.joblib",
+      "lstm": "registry\\Colorado\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.129,
+        "rmse": 20502493.65,
+        "mae": 18582439.35
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.0126,
+        "rmse": 34268799.92,
+        "mae": 30144622.21
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.2301,
+        "rmse": 12320888.16,
+        "mae": 9194987.5
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.0829,
+        "rmse": 11488546.6,
+        "mae": 10483493.45
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Connecticut": {
+    "state": "Connecticut",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Connecticut\\sarima.joblib",
+      "prophet": "registry\\Connecticut\\prophet.joblib",
+      "xgboost": "registry\\Connecticut\\xgboost.joblib",
+      "lstm": "registry\\Connecticut\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.0992,
+        "rmse": 8614772.66,
+        "mae": 6976015.77
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 25.9949,
+        "rmse": 26343712.02,
+        "mae": 22322818.17
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.806,
+        "rmse": 5319451.52,
+        "mae": 4320949.5
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.1353,
+        "rmse": 5023397.31,
+        "mae": 4531690.43
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Florida": {
+    "state": "Florida",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Florida\\sarima.joblib",
+      "prophet": "registry\\Florida\\prophet.joblib",
+      "xgboost": "registry\\Florida\\xgboost.joblib",
+      "lstm": "registry\\Florida\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 6.3381,
+        "rmse": 61395027.81,
+        "mae": 47921336.99
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 17.8344,
+        "rmse": 149693547.05,
+        "mae": 127642828.75
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 9.9773,
+        "rmse": 90611221.67,
+        "mae": 75667327.4
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.1693,
+        "rmse": 50748647.63,
+        "mae": 39427606.96
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Georgia": {
+    "state": "Georgia",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Georgia\\sarima.joblib",
+      "prophet": "registry\\Georgia\\prophet.joblib",
+      "xgboost": "registry\\Georgia\\xgboost.joblib",
+      "lstm": "registry\\Georgia\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.3052,
+        "rmse": 44101598.44,
+        "mae": 37846352.85
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.8789,
+        "rmse": 82067780.77,
+        "mae": 68353828.95
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.3535,
+        "rmse": 18772078.0,
+        "mae": 16401453.8
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.066,
+        "rmse": 21208861.48,
+        "mae": 18907721.21
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Illinois": {
+    "state": "Illinois",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Illinois\\sarima.joblib",
+      "prophet": "registry\\Illinois\\prophet.joblib",
+      "xgboost": "registry\\Illinois\\xgboost.joblib",
+      "lstm": "registry\\Illinois\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.2525,
+        "rmse": 32463918.63,
+        "mae": 25495493.54
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 21.02,
+        "rmse": 73808052.33,
+        "mae": 63049740.45
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.7373,
+        "rmse": 23039915.72,
+        "mae": 18389249.4
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.6312,
+        "rmse": 19595537.2,
+        "mae": 17480299.61
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Indiana": {
+    "state": "Indiana",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Indiana\\sarima.joblib",
+      "prophet": "registry\\Indiana\\prophet.joblib",
+      "xgboost": "registry\\Indiana\\xgboost.joblib",
+      "lstm": "registry\\Indiana\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.2407,
+        "rmse": 25710798.06,
+        "mae": 19710668.3
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.3137,
+        "rmse": 43751782.16,
+        "mae": 38255120.72
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.0935,
+        "rmse": 13093979.59,
+        "mae": 11105112.8
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.2254,
+        "rmse": 12586930.01,
+        "mae": 11179525.7
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Iowa": {
+    "state": "Iowa",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Iowa\\sarima.joblib",
+      "prophet": "registry\\Iowa\\prophet.joblib",
+      "xgboost": "registry\\Iowa\\xgboost.joblib",
+      "lstm": "registry\\Iowa\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.7186,
+        "rmse": 13227206.28,
+        "mae": 9714739.86
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 8.9679,
+        "rmse": 12068120.65,
+        "mae": 10054325.63
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.5088,
+        "rmse": 7254960.43,
+        "mae": 5320003.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.3756,
+        "rmse": 7192717.54,
+        "mae": 6064769.82
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Kansas": {
+    "state": "Kansas",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Kansas\\sarima.joblib",
+      "prophet": "registry\\Kansas\\prophet.joblib",
+      "xgboost": "registry\\Kansas\\xgboost.joblib",
+      "lstm": "registry\\Kansas\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.5074,
+        "rmse": 9741119.36,
+        "mae": 7384189.81
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 16.531,
+        "rmse": 16234703.91,
+        "mae": 14245855.86
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.3454,
+        "rmse": 5739797.56,
+        "mae": 4875594.9
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.3196,
+        "rmse": 5131986.67,
+        "mae": 4659629.11
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Kentucky": {
+    "state": "Kentucky",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Kentucky\\sarima.joblib",
+      "prophet": "registry\\Kentucky\\prophet.joblib",
+      "xgboost": "registry\\Kentucky\\xgboost.joblib",
+      "lstm": "registry\\Kentucky\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.5905,
+        "rmse": 19088722.09,
+        "mae": 15905809.36
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 20.8305,
+        "rmse": 39709041.97,
+        "mae": 34066284.92
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.5763,
+        "rmse": 8889471.8,
+        "mae": 7789043.7
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.1717,
+        "rmse": 9801088.68,
+        "mae": 8639876.22
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Louisiana": {
+    "state": "Louisiana",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Louisiana\\sarima.joblib",
+      "prophet": "registry\\Louisiana\\prophet.joblib",
+      "xgboost": "registry\\Louisiana\\xgboost.joblib",
+      "lstm": "registry\\Louisiana\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.1979,
+        "rmse": 19336662.44,
+        "mae": 15354164.41
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 17.3842,
+        "rmse": 37418433.14,
+        "mae": 29476325.24
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.2957,
+        "rmse": 11444335.9,
+        "mae": 9329480.5
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.3557,
+        "rmse": 13197700.51,
+        "mae": 11126361.72
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Maine": {
+    "state": "Maine",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Maine\\sarima.joblib",
+      "prophet": "registry\\Maine\\prophet.joblib",
+      "xgboost": "registry\\Maine\\xgboost.joblib",
+      "lstm": "registry\\Maine\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 12.2075,
+        "rmse": 5890406.55,
+        "mae": 5509751.09
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 10.1091,
+        "rmse": 5627913.8,
+        "mae": 4608609.31
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.5418,
+        "rmse": 3508554.42,
+        "mae": 2619936.9
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.5908,
+        "rmse": 3241141.16,
+        "mae": 2588119.82
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Maryland": {
+    "state": "Maryland",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Maryland\\sarima.joblib",
+      "prophet": "registry\\Maryland\\prophet.joblib",
+      "xgboost": "registry\\Maryland\\xgboost.joblib",
+      "lstm": "registry\\Maryland\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.9061,
+        "rmse": 19735925.29,
+        "mae": 17004686.92
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 16.7557,
+        "rmse": 29936145.68,
+        "mae": 25752969.27
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.8564,
+        "rmse": 10421867.73,
+        "mae": 7942563.6
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 4.0904,
+        "rmse": 8009685.88,
+        "mae": 6496158.95
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Massachusetts": {
+    "state": "Massachusetts",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Massachusetts\\sarima.joblib",
+      "prophet": "registry\\Massachusetts\\prophet.joblib",
+      "xgboost": "registry\\Massachusetts\\xgboost.joblib",
+      "lstm": "registry\\Massachusetts\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.8694,
+        "rmse": 19098731.33,
+        "mae": 17087255.2
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 23.3741,
+        "rmse": 48137972.22,
+        "mae": 40642124.72
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.0786,
+        "rmse": 11624941.41,
+        "mae": 9238351.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.6797,
+        "rmse": 11666821.28,
+        "mae": 10173356.3
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Michigan": {
+    "state": "Michigan",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Michigan\\sarima.joblib",
+      "prophet": "registry\\Michigan\\prophet.joblib",
+      "xgboost": "registry\\Michigan\\xgboost.joblib",
+      "lstm": "registry\\Michigan\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.3637,
+        "rmse": 37849989.57,
+        "mae": 29436881.96
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 14.3858,
+        "rmse": 44720069.99,
+        "mae": 39860907.11
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.021,
+        "rmse": 16989709.38,
+        "mae": 14451021.0
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.2234,
+        "rmse": 16881970.52,
+        "mae": 14886060.77
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Minnesota": {
+    "state": "Minnesota",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Minnesota\\sarima.joblib",
+      "prophet": "registry\\Minnesota\\prophet.joblib",
+      "xgboost": "registry\\Minnesota\\xgboost.joblib",
+      "lstm": "registry\\Minnesota\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.5553,
+        "rmse": 14201578.85,
+        "mae": 12893710.67
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 11.2273,
+        "rmse": 21790539.9,
+        "mae": 16703755.22
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.969,
+        "rmse": 11819779.59,
+        "mae": 9455779.8
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.1143,
+        "rmse": 10853677.69,
+        "mae": 9446909.74
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Mississippi": {
+    "state": "Mississippi",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Mississippi\\sarima.joblib",
+      "prophet": "registry\\Mississippi\\prophet.joblib",
+      "xgboost": "registry\\Mississippi\\xgboost.joblib",
+      "lstm": "registry\\Mississippi\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 13.3503,
+        "rmse": 18258561.74,
+        "mae": 15883226.18
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 34.3716,
+        "rmse": 44151347.99,
+        "mae": 41595293.86
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.4383,
+        "rmse": 7154848.52,
+        "mae": 6595604.0
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.4747,
+        "rmse": 7907146.82,
+        "mae": 6445586.68
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Missouri": {
+    "state": "Missouri",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Missouri\\sarima.joblib",
+      "prophet": "registry\\Missouri\\prophet.joblib",
+      "xgboost": "registry\\Missouri\\xgboost.joblib",
+      "lstm": "registry\\Missouri\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.8902,
+        "rmse": 21553781.98,
+        "mae": 16594607.4
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 21.0662,
+        "rmse": 44639739.55,
+        "mae": 39051020.75
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.7163,
+        "rmse": 12504450.84,
+        "mae": 11061211.4
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.3995,
+        "rmse": 11198140.85,
+        "mae": 10200744.25
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Nebraska": {
+    "state": "Nebraska",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Nebraska\\sarima.joblib",
+      "prophet": "registry\\Nebraska\\prophet.joblib",
+      "xgboost": "registry\\Nebraska\\xgboost.joblib",
+      "lstm": "registry\\Nebraska\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.3196,
+        "rmse": 7904549.0,
+        "mae": 6684533.98
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.7711,
+        "rmse": 12311674.9,
+        "mae": 11269408.14
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.1525,
+        "rmse": 3805799.98,
+        "mae": 3155493.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.6856,
+        "rmse": 3858148.79,
+        "mae": 3410459.15
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Nevada": {
+    "state": "Nevada",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Nevada\\sarima.joblib",
+      "prophet": "registry\\Nevada\\prophet.joblib",
+      "xgboost": "registry\\Nevada\\xgboost.joblib",
+      "lstm": "registry\\Nevada\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.1928,
+        "rmse": 12485673.71,
+        "mae": 9865272.08
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 14.8028,
+        "rmse": 16402414.42,
+        "mae": 14396956.46
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.9929,
+        "rmse": 7464638.23,
+        "mae": 6058700.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.1423,
+        "rmse": 6957633.99,
+        "mae": 6110433.5
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "New Hampshire": {
+    "state": "New Hampshire",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\New_Hampshire\\sarima.joblib",
+      "prophet": "registry\\New_Hampshire\\prophet.joblib",
+      "xgboost": "registry\\New_Hampshire\\xgboost.joblib",
+      "lstm": "registry\\New_Hampshire\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.1203,
+        "rmse": 7480151.87,
+        "mae": 6033960.87
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 14.7963,
+        "rmse": 9320003.04,
+        "mae": 7847561.58
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.3335,
+        "rmse": 3512297.16,
+        "mae": 2931236.3
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.1048,
+        "rmse": 3766434.13,
+        "mae": 3364680.59
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "New Mexico": {
+    "state": "New Mexico",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\New_Mexico\\sarima.joblib",
+      "prophet": "registry\\New_Mexico\\prophet.joblib",
+      "xgboost": "registry\\New_Mexico\\xgboost.joblib",
+      "lstm": "registry\\New_Mexico\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.2297,
+        "rmse": 9685628.28,
+        "mae": 7707988.77
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 13.7224,
+        "rmse": 11187261.37,
+        "mae": 9384529.18
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 6.1572,
+        "rmse": 6303123.98,
+        "mae": 4572758.7
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 7.0147,
+        "rmse": 5718130.51,
+        "mae": 4963846.49
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "New York": {
+    "state": "New York",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\New_York\\sarima.joblib",
+      "prophet": "registry\\New_York\\prophet.joblib",
+      "xgboost": "registry\\New_York\\xgboost.joblib",
+      "lstm": "registry\\New_York\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.3279,
+        "rmse": 47466005.53,
+        "mae": 43148540.13
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 17.9129,
+        "rmse": 90741595.7,
+        "mae": 74250393.02
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.457,
+        "rmse": 23908525.9,
+        "mae": 19339169.8
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 4.9234,
+        "rmse": 23986544.66,
+        "mae": 21104643.32
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "North Carolina": {
+    "state": "North Carolina",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\North_Carolina\\sarima.joblib",
+      "prophet": "registry\\North_Carolina\\prophet.joblib",
+      "xgboost": "registry\\North_Carolina\\xgboost.joblib",
+      "lstm": "registry\\North_Carolina\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.7526,
+        "rmse": 40411163.2,
+        "mae": 33435923.85
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 19.1179,
+        "rmse": 76989190.14,
+        "mae": 64814240.84
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.3183,
+        "rmse": 18775514.93,
+        "mae": 15206013.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.1251,
+        "rmse": 20241718.62,
+        "mae": 17837682.53
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Ohio": {
+    "state": "Ohio",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Ohio\\sarima.joblib",
+      "prophet": "registry\\Ohio\\prophet.joblib",
+      "xgboost": "registry\\Ohio\\xgboost.joblib",
+      "lstm": "registry\\Ohio\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.7048,
+        "rmse": 44038133.97,
+        "mae": 34753697.03
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 16.3098,
+        "rmse": 65948121.53,
+        "mae": 57444997.67
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.0798,
+        "rmse": 18326979.62,
+        "mae": 14857442.3
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.0262,
+        "rmse": 20763895.25,
+        "mae": 18119571.56
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Oklahoma": {
+    "state": "Oklahoma",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Oklahoma\\sarima.joblib",
+      "prophet": "registry\\Oklahoma\\prophet.joblib",
+      "xgboost": "registry\\Oklahoma\\xgboost.joblib",
+      "lstm": "registry\\Oklahoma\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.2399,
+        "rmse": 15520529.45,
+        "mae": 11346970.63
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 17.3871,
+        "rmse": 27920957.7,
+        "mae": 24410980.0
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.4648,
+        "rmse": 7809180.68,
+        "mae": 6367255.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.2681,
+        "rmse": 8310573.89,
+        "mae": 7463305.59
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Oregon": {
+    "state": "Oregon",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Oregon\\sarima.joblib",
+      "prophet": "registry\\Oregon\\prophet.joblib",
+      "xgboost": "registry\\Oregon\\xgboost.joblib",
+      "lstm": "registry\\Oregon\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.0767,
+        "rmse": 16357340.43,
+        "mae": 12150994.47
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.542,
+        "rmse": 23405328.17,
+        "mae": 20201745.94
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.3328,
+        "rmse": 7699983.68,
+        "mae": 6097922.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.6347,
+        "rmse": 7286955.24,
+        "mae": 6323378.16
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Pennsylvania": {
+    "state": "Pennsylvania",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Pennsylvania\\sarima.joblib",
+      "prophet": "registry\\Pennsylvania\\prophet.joblib",
+      "xgboost": "registry\\Pennsylvania\\xgboost.joblib",
+      "lstm": "registry\\Pennsylvania\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.6853,
+        "rmse": 33472859.71,
+        "mae": 29993126.93
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 18.3905,
+        "rmse": 72399940.36,
+        "mae": 63580110.65
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.3578,
+        "rmse": 18820010.66,
+        "mae": 15674378.8
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 4.2899,
+        "rmse": 17745839.96,
+        "mae": 15162272.29
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Rhode Island": {
+    "state": "Rhode Island",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Rhode_Island\\sarima.joblib",
+      "prophet": "registry\\Rhode_Island\\prophet.joblib",
+      "xgboost": "registry\\Rhode_Island\\xgboost.joblib",
+      "lstm": "registry\\Rhode_Island\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.4344,
+        "rmse": 3229860.75,
+        "mae": 2895858.36
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 10.4844,
+        "rmse": 3014122.3,
+        "mae": 2719639.59
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.4308,
+        "rmse": 1316954.65,
+        "mae": 1156761.6
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.0957,
+        "rmse": 1493522.69,
+        "mae": 1324973.22
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "South Carolina": {
+    "state": "South Carolina",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\South_Carolina\\sarima.joblib",
+      "prophet": "registry\\South_Carolina\\prophet.joblib",
+      "xgboost": "registry\\South_Carolina\\xgboost.joblib",
+      "lstm": "registry\\South_Carolina\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.2333,
+        "rmse": 22582617.43,
+        "mae": 19343197.93
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 20.3223,
+        "rmse": 43557561.2,
+        "mae": 37928454.8
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.6534,
+        "rmse": 14026308.23,
+        "mae": 11248266.6
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.4081,
+        "rmse": 11321982.87,
+        "mae": 10299285.03
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "South Dakota": {
+    "state": "South Dakota",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\South_Dakota\\sarima.joblib",
+      "prophet": "registry\\South_Dakota\\prophet.joblib",
+      "xgboost": "registry\\South_Dakota\\xgboost.joblib",
+      "lstm": "registry\\South_Dakota\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 11.4493,
+        "rmse": 3492922.28,
+        "mae": 3135135.13
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 6.6954,
+        "rmse": 2550301.97,
+        "mae": 1882572.58
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.2107,
+        "rmse": 1809451.5,
+        "mae": 1494705.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.9336,
+        "rmse": 2128993.76,
+        "mae": 1681417.31
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Tennessee": {
+    "state": "Tennessee",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Tennessee\\sarima.joblib",
+      "prophet": "registry\\Tennessee\\prophet.joblib",
+      "xgboost": "registry\\Tennessee\\xgboost.joblib",
+      "lstm": "registry\\Tennessee\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.5298,
+        "rmse": 28629601.36,
+        "mae": 23872477.35
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 19.9818,
+        "rmse": 58049584.33,
+        "mae": 49599902.67
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.8496,
+        "rmse": 14716107.27,
+        "mae": 12566278.5
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.0744,
+        "rmse": 13871882.96,
+        "mae": 12792608.95
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Texas": {
+    "state": "Texas",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Texas\\sarima.joblib",
+      "prophet": "registry\\Texas\\prophet.joblib",
+      "xgboost": "registry\\Texas\\xgboost.joblib",
+      "lstm": "registry\\Texas\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.6707,
+        "rmse": 109355592.98,
+        "mae": 82819790.07
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 24.8451,
+        "rmse": 243478553.42,
+        "mae": 212647230.68
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.855,
+        "rmse": 53922185.88,
+        "mae": 43203488.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.9032,
+        "rmse": 59670916.51,
+        "mae": 52111049.29
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Utah": {
+    "state": "Utah",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Utah\\sarima.joblib",
+      "prophet": "registry\\Utah\\prophet.joblib",
+      "xgboost": "registry\\Utah\\xgboost.joblib",
+      "lstm": "registry\\Utah\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 10.0703,
+        "rmse": 9347172.87,
+        "mae": 7850648.33
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 13.8005,
+        "rmse": 13118777.76,
+        "mae": 10890907.16
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 6.4312,
+        "rmse": 6639827.54,
+        "mae": 5290170.5
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 6.7029,
+        "rmse": 6373338.93,
+        "mae": 5449212.59
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Vermont": {
+    "state": "Vermont",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Vermont\\sarima.joblib",
+      "prophet": "registry\\Vermont\\prophet.joblib",
+      "xgboost": "registry\\Vermont\\xgboost.joblib",
+      "lstm": "registry\\Vermont\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.0437,
+        "rmse": 2255270.98,
+        "mae": 1671671.01
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 13.7254,
+        "rmse": 2764922.24,
+        "mae": 2479148.41
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.6612,
+        "rmse": 1071103.47,
+        "mae": 873833.1
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 3.4171,
+        "rmse": 811726.77,
+        "mae": 631912.37
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Virginia": {
+    "state": "Virginia",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Virginia\\sarima.joblib",
+      "prophet": "registry\\Virginia\\prophet.joblib",
+      "xgboost": "registry\\Virginia\\xgboost.joblib",
+      "lstm": "registry\\Virginia\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.5647,
+        "rmse": 30804142.98,
+        "mae": 26683560.64
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 14.8199,
+        "rmse": 47203991.23,
+        "mae": 40894443.88
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.4078,
+        "rmse": 19255796.11,
+        "mae": 15789436.2
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.0971,
+        "rmse": 15772239.22,
+        "mae": 14368331.49
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Washington": {
+    "state": "Washington",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\Washington\\sarima.joblib",
+      "prophet": "registry\\Washington\\prophet.joblib",
+      "xgboost": "registry\\Washington\\xgboost.joblib",
+      "lstm": "registry\\Washington\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 8.962,
+        "rmse": 17839901.75,
+        "mae": 15988159.4
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 20.5101,
+        "rmse": 42425375.75,
+        "mae": 36627986.7
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.3995,
+        "rmse": 12580492.56,
+        "mae": 10071485.7
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.003,
+        "rmse": 10519411.11,
+        "mae": 9152805.79
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "West Virginia": {
+    "state": "West Virginia",
+    "best_model": "lstm",
+    "model_paths": {
+      "sarima": "registry\\West_Virginia\\sarima.joblib",
+      "prophet": "registry\\West_Virginia\\prophet.joblib",
+      "xgboost": "registry\\West_Virginia\\xgboost.joblib",
+      "lstm": "registry\\West_Virginia\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.8242,
+        "rmse": 9310495.44,
+        "mae": 7006806.38
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 14.8663,
+        "rmse": 12417431.29,
+        "mae": 10641632.03
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 6.1415,
+        "rmse": 5395561.2,
+        "mae": 4602972.6
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.2636,
+        "rmse": 4305797.16,
+        "mae": 3837776.27
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Wisconsin": {
+    "state": "Wisconsin",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Wisconsin\\sarima.joblib",
+      "prophet": "registry\\Wisconsin\\prophet.joblib",
+      "xgboost": "registry\\Wisconsin\\xgboost.joblib",
+      "lstm": "registry\\Wisconsin\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 9.0618,
+        "rmse": 15287308.35,
+        "mae": 13559560.01
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 12.0909,
+        "rmse": 21179105.81,
+        "mae": 18280653.17
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 4.8961,
+        "rmse": 9514140.46,
+        "mae": 7636211.3
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.3899,
+        "rmse": 9595695.2,
+        "mae": 8329983.72
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  },
+  "Wyoming": {
+    "state": "Wyoming",
+    "best_model": "xgboost",
+    "model_paths": {
+      "sarima": "registry\\Wyoming\\sarima.joblib",
+      "prophet": "registry\\Wyoming\\prophet.joblib",
+      "xgboost": "registry\\Wyoming\\xgboost.joblib",
+      "lstm": "registry\\Wyoming\\lstm.joblib"
+    },
+    "metrics": {
+      "sarima": {
+        "model": "sarima",
+        "mape": 13.516,
+        "rmse": 3048376.35,
+        "mae": 2797239.47
+      },
+      "prophet": {
+        "model": "prophet",
+        "mape": 7.8093,
+        "rmse": 2108355.0,
+        "mae": 1671619.77
+      },
+      "xgboost": {
+        "model": "xgboost",
+        "mape": 5.1679,
+        "rmse": 1556817.48,
+        "mae": 1147217.9
+      },
+      "lstm": {
+        "model": "lstm",
+        "mape": 5.914,
+        "rmse": 1670915.11,
+        "mae": 1300718.14
+      }
+    },
+    "last_train_date": "2023-12-03",
+    "forecast_start": "2023-12-10",
+    "n_train_weeks": 65,
+    "n_val_weeks": 10,
+    "future_dates": [
+      "2023-12-11",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29"
+    ]
+  }
+}
